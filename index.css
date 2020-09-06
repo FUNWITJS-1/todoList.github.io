@@ -8,7 +8,7 @@
 	
 body { 
 	background: #f2f2f2; 
-	overflow: auto; 
+	
 } 
 	
 h1{ 
@@ -23,14 +23,14 @@ ul {
 	padding-left: 10%; 
 	padding: 7%; 
 	font-size: 2rem; 
-	list-style: circle; 
+	 
 } 
 	
 li:hover{ 
 	color:red; 
 	margin: 4%; 
-	transition: 1.5s ease; 
-	cursor: pointer; 
+	
+	
 } 
 .delete {
 	display: none;
@@ -40,4 +40,8 @@ li:hover{
 {
 	margin-top: 10px;
 	
+}
+.highlight{
+background-color: #fff2ac;
+background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
 }
