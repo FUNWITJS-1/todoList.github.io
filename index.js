@@ -45,6 +45,9 @@ function add_item() {
             // if checked ...
            make_li.classList.add("highlight");
         } 
+        else{
+            make_li.classList.remove("highlight");
+        }
     };
     
     } 
