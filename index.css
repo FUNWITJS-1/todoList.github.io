@@ -26,7 +26,12 @@ ul {
 	 
 } 
 	
-
+li:hover{ 
+	color:red; 
+	
+	
+	
+} 
 .delete {
 	display: none;
 }
